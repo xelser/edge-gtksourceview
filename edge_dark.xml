@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright 2023 Axel Amores
+
+  GtkSourceView is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+
+  GtkSourceView is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with this library; if not, see <http://www.gnu.org/licenses/>.
+
+-->
+<style-scheme id="edge-dark" _name="Edge Dark" version="1.0">
+  <author>Axel Amores</author>
+  <_description>Based on Sainnhe's Edge colorscheme. Dark Variant</_description>
+
+  <metadata>
+    <property name="variant">dark</property>
+  </metadata>
+
+  <!-- Named Colors -->
+  <color name="bg0"                  value="#2C2E34"/>
+  <color name="bg1"                  value="#33353F"/>
+  <color name="bg2"                  value="#363944"/>
+  <color name="bg3"                  value="#3B3E48"/>
+  <color name="bg4"                  value="#414550"/>
+  <color name="bg_blue"              value="#5CB6EB"/>
+  <color name="bg_dim"               value="#24262A"/>
+  <color name="bg_green"             value="#A0C980"/>
+  <color name="bg_purple"            value="#D38AEA"/>
+  <color name="bg_red"               value="#EC7279"/>
+  <color name="black"                value="#202023"/>
+  <color name="blue"                 value="#6CB6EB"/>
+  <color name="cyan"                 value="#5DBBC1"/>
+  <color name="diff_blue"            value="#354157"/>
+  <color name="diff_green"           value="#394634"/>
+  <color name="diff_red"             value="#55393D"/>
+  <color name="diff_yellow"          value="#4E432F"/>
+  <color name="fg"                   value="#C5CDD9"/>
+  <color name="gray"                 value="#758094"/>
+  <color name="gray_dim"             value="#535C6A"/>
+  <color name="green"                value="#A0C980"/>
+  <color name="purple"               value="#D38AEA"/>
+  <color name="red"                  value="#EC7279"/>
+  <color name="yellow"               value="#DEB974"/>
+
+  <!-- Global Styles -->
+  <style name="bracket-match"        foreground="purple"/>
+  <style name="bracket-mismatch"     foreground="red"/>
+  <style name="cursor"               foreground="fg"/>
+  <style name="line-numbers"         background="bg_dim" foreground="gray_dim"/>
+  <style name="search-match"         background="bg_blue" foreground="diff_blue" bold="true"/>
+  <style name="selection"            background="gray_dim"/>
+  <style name="text"                 background="bg0" foreground="fg"/>
+
+  <!-- Defaults -->
+  <style name="def:base-n-integer"   foreground="red"/>
+  <style name="def:boolean"          foreground="green"/>
+  <style name="def:character"        foreground="green"/>
+  <style name="def:comment"          foreground="gray" italic="true"/>
+  <style name="def:complex"          foreground="red"/>
+  <style name="def:constant"         foreground="red"/>
+  <style name="def:decimal"          foreground="red"/>
+  <style name="def:deletion"         foreground="red"/>
+  <style name="def:error"            foreground="red"/>
+  <style name="def:floating-point"   foreground="red"/>
+  <style name="def:function"         foreground="blue"/>
+  <style name="def:identifier"       foreground="purple"/>
+  <style name="def:keyword"          foreground="purple"/>
+  <style name="def:net-address"      foreground="purple"/>
+  <style name="def:note"             background="bg_blue" foreground="bg0" bold="true"/>
+  <style name="def:number"           foreground="red"/>
+  <style name="def:operator"         foreground="purple"/>
+  <style name="def:preprocessor"     foreground="purple"/>
+  <style name="def:shebang"          foreground="purple"/>
+  <style name="def:special-char"     foreground="cyan"/>
+  <style name="def:special-constant" foreground="cyan"/>
+  <style name="def:string"           foreground="green"/>
+  <style name="def:type"             foreground="yellow"/>
+  <style name="def:warning"          foreground="yellow"/>
+
+  <!-- sh -->
+  <style name="sh:variable"          foreground="red"/>
+
+  <!-- XML -->
+  <style name="xml:attribute-name"   foreground="red"/>
+
+</style-scheme>
