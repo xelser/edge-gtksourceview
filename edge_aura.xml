@@ -21,10 +21,6 @@
   <author>Axel Amores</author>
   <_description>Based on Sainnhe's Edge colorscheme. Aura Variant</_description>
 
-  <metadata>
-    <property name="variant">dark</property>
-  </metadata>
-
   <!-- Named Colors -->
   <color name="bg0"                  value="#2B2D37"/>
   <color name="bg1"                  value="#333644"/>

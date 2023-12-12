@@ -21,10 +21,6 @@
   <author>Axel Amores</author>
   <_description>Based on Sainnhe's Edge colorscheme and Atom's One Dark</_description>
 
-  <metadata>
-    <property name="variant">dark</property>
-  </metadata>
-
   <!-- Named Colors -->
   <color name="bg0"                  value="#282C34"/>
   <color name="bg1"                  value="#33353F"/>
