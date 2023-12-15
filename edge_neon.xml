@@ -50,7 +50,7 @@
   <!-- Global Styles -->
   <style name="bracket-match"        foreground="purple"/>
   <style name="bracket-mismatch"     foreground="red"/>
-  <style name="line-numbers"         background="bg0" foreground="gray_dim"/>
+  <style name="line-numbers"         background="bg_dim" foreground="gray_dim"/>
   <style name="search-match"         background="bg_blue" foreground="diff_blue" bold="true"/>
   <style name="selection"            background="fg"/>
   <style name="text"                 foreground="fg"/>
