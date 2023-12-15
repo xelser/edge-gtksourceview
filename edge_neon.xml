@@ -50,11 +50,14 @@
   <!-- Global Styles -->
   <style name="bracket-match"        foreground="purple"/>
   <style name="bracket-mismatch"     foreground="red"/>
+  <style name="current-line"         background="bg3"/>
+  <style name="current-line-number"  foreground="fg" bold="true"/>
+  <style name="cursor"               foreground="fg"/>
   <style name="line-numbers"         background="bg_dim" foreground="gray_dim"/>
   <style name="search-match"         background="bg_blue" foreground="diff_blue" bold="true"/>
-  <style name="selection"            background="fg"/>
-  <style name="text"                 foreground="fg"/>
-
+  <style name="selection"            background="fg" foreground="black"/>
+  <style name="text"                 background="bg0" foreground="fg"/>
+  
   <!-- Defaults -->
   <style name="def:base-n-integer"   foreground="red"/>
   <style name="def:boolean"          foreground="green"/>
